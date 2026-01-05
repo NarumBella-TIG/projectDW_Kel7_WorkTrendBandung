@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WORKTREND BANDUNG - Analisis Pekerjaan</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>WORKTREND <span class="highlight">BANDUNG</span></h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#analysis">Analisis</a></li>
+                <li><a href="#insights">Insights</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Analisis Pola Pekerjaan <span class="highlight">Kota Bandung</span></h1>
+                <p class="hero-subtitle">Menganalisis perubahan pola jenis pekerjaan di Kota Bandung periode 2017 - 2025</p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">8</div>
+                        <div class="stat-label">Tahun Data</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Jenis Pekerjaan</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">78.15%</div>
+                        <div class="stat-label">Tingkat Pekerja</div>
+                    </div>
+                </div>
+                <a href="#dashboard" class="cta-button">
+                    Lihat Dashboard <i class="fas fa-arrow-down"></i>
+                </a>
+            </div>
+            <div class="hero-visual">
+                <div class="chart-placeholder">
+                    <div class="bar" style="height: 80%; background-color: #8b0000;"></div>
+                    <div class="bar" style="height: 65%; background-color: #ff4500;"></div>
+                    <div class="bar" style="height: 90%; background-color: #ffd700;"></div>
+                    <div class="bar" style="height: 55%; background-color: #1e90ff;"></div>
+                    <div class="bar" style="height: 70%; background-color: #32cd32;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </header>
+
+    <!-- Dashboard Section -->
+    <section class="dashboard-section" id="dashboard">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Dashboard Utama</h2>
+                <p class="section-subtitle">Visualisasi interaktif tren pekerjaan di Kota Bandung (2017-2025)</p>
+            </div>
+            <div class="tableau-full-wrapper">
+                <!-- Tableau Dashboard Embed -->
+                <div class='tableauPlaceholder' id='viz1767612807964' style='position: relative'><noscript><a href='#'><img alt='DASHBOARD TREN JENIS PEKERJAAN SETIAP TAHUN DI KOTA BANDUNG ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Vi&#47;VisualisasiDataGrafikChartDatawarehouseKelompok7&#47;DASHBOARDTRENJENISPEKERJAANSETIAPTAHUNDIKOTABANDUNG&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='VisualisasiDataGrafikChartDatawarehouseKelompok7&#47;DASHBOARDTRENJENISPEKERJAANSETIAPTAHUNDIKOTABANDUNG' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Vi&#47;VisualisasiDataGrafikChartDatawarehouseKelompok7&#47;DASHBOARDTRENJENISPEKERJAANSETIAPTAHUNDIKOTABANDUNG&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>
+                <script type='text/javascript'>
+                    var divElement = document.getElementById('viz1767612807964');
+                    var vizElement = divElement.getElementsByTagName('object')[0];
+                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height='977px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height='977px';} else { vizElement.style.width='100%';vizElement.style.height='1527px';}
+                    var scriptElement = document.createElement('script');
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                </script>
+            </div>
+            <div class="dashboard-info">
+                <div class="info-card">
+                    <i class="fas fa-info-circle"></i>
+                    <p>Dashboard ini menunjukkan tren jenis pekerjaan di Kota Bandung dari tahun 2017 hingga 2025. Gunakan filter untuk mengeksplorasi data lebih lanjut.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Insights -->
+    <section class="insights-section" id="insights">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Key Insights</h2>
+                <p class="section-subtitle">Temuan penting dari analisis data pekerjaan Kota Bandung</p>
+            </div>
+            <div class="insights-grid">
+                <div class="insight-card">
+                    <div class="insight-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Perubahan Drastis Pasca Pandemi</h3>
+                    <p>Pola stabil 2017-2021 mengalami perubahan signifikan pada 2022-2023 sebagai dampak pasca pandemi COVID-19, menunjukkan transformasi pasar kerja yang cepat.</p>
+                    <div class="insight-meta">
+                        <span class="meta-tag"><i class="fas fa-calendar"></i> Periode 2022-2023</span>
+                    </div>
+                </div>
+                <div class="insight-card">
+                    <div class="insight-icon">
+                        <i class="fas fa-business-time"></i>
+                    </div>
+                    <h3>Dominasi Sektor Wiraswasta</h3>
+                    <p>Wiraswasta menjadi profesi paling banyak digeluti masyarakat Bandung, menunjukkan kekuatan sektor kewirausahaan dan budaya startup di kota kreatif ini.</p>
+                    <div class="insight-meta">
+                        <span class="meta-tag"><i class="fas fa-chart-pie"></i> 32% dari total pekerja</span>
+                    </div>
+                </div>
+                <div class="insight-card">
+                    <div class="insight-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <h3>Anomali Pertumbuhan 2023-2024</h3>
+                    <p>Lonjakan 360.8% dan penurunan -100% menunjukkan pergeseran struktural lapangan kerja yang perlu dikaji lebih lanjut oleh pemerintah daerah.</p>
+                    <div class="insight-meta">
+                        <span class="meta-tag warning"><i class="fas fa-exclamation-circle"></i> Anomali Deteksi</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Analysis Section -->
+    <section class="analysis-section" id="analysis">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Analisis Mendalam</h2>
+                <p class="section-subtitle">Visualisasi dan interpretasi data pekerjaan Kota Bandung</p>
+            </div>
+
+            <div class="analysis-container">
+                <!-- Item 1: Tren Jenis Pekerjaan -->
+                <div class="analysis-sheet">
+                    <div class="sheet-header">
+                        <div class="sheet-title">
+                            <h3>Tren Jenis Pekerjaan</h3>
+                            <span class="chart-type">Stacked Bar Chart</span>
+                        </div>
+                        <div class="sheet-meta">
+                            <span><i class="fas fa-calendar-alt"></i> 2017-2025</span>
+                            <span><i class="fas fa-filter"></i> 15+ Kategori</span>
+                        </div>
+                    </div>
+                    <div class="chart-container">
+                        <div class='tableauPlaceholder' id='viz1767612865998' style='position: relative'><noscript><a href='#'><img alt='Tren Jenis Pekerjaan ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Vi&#47;VisualisasiDataGrafikChartDatawarehouseKelompok7&#47;TrenJenisPekerjaan&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='VisualisasiDataGrafikChartDatawarehouseKelompok7&#47;TrenJenisPekerjaan' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Vi&#47;VisualisasiDataGrafikChartDatawarehouseKelompok7&#47;TrenJenisPekerjaan&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>
+                        <script type='text/javascript'>
+                            var divElement = document.getElementById('viz1767612865998');
+                            var vizElement = divElement.getElementsByTagName('object')[0];
+                            vizElement.style.width='100%';vizElement.style.height='450px';
+                            var scriptElement = document.createElement('script');
+                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                        </script>
+                    </div>
+                    <div class="sheet-insight">
+                        <div class="insight-tag">
+                            <i class="fas fa-lightbulb"></i>
+                            <strong>Insight Utama:</strong> Stabilitas jangka panjang terganggu secara drastis pada periode pasca-pandemi.
+                        </div>
+                        <div class="insight-content">
+                            <p>Grafik ini menunjukkan akumulasi jumlah penduduk berdasarkan profesi setiap tahunnya. Terlihat pola yang stabil dari 2017-2021, namun terjadi perubahan signifikan pada tahun 2022 ke 2023 yang mengindikasikan transformasi struktural dalam pasar kerja Bandung.</p>
+                            <ul class="insight-list">
+                                <li><i class="fas fa-check-circle"></i> Periode stabil: 2017-2021 menunjukkan konsistensi</li>
+                                <li><i class="fas fa-exclamation-circle"></i> Transformasi: Perubahan drastis pasca pandemi COVID-19</li>
+                                <li><i class="fas fa-chart-line"></i> Tren: Pergeseran menuju sektor informal dan kreatif</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 2: Top Jenis Pekerjaan -->
+                <div class="analysis-sheet">
+                    <div class="sheet-header">
+                        <div class="sheet-title">
+                            <h3>Top Jenis Pekerjaan</h3>
+                            <span class="chart-type">Horizontal Bar Chart</span>
+                        </div>
+                        <div class="sheet-meta">
+                            <span><i class="fas fa-trophy"></i> Ranking 2025</span>
+                            <span><i class="fas fa-percentage"></i> Persentase Populasi</span>
+                        </div>
+                    </div>
+                    <div class="chart-container">
+                        <div class='tableauPlaceholder' id='viz1767612876321' style='position: relative'><noscript><a href='#'><img alt='Top Jenis Pekerjaan ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Vi&#47;VisualisasiDataGrafikChartDatawarehouseKelompok7&#47;TopJenisPekerjaan&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='VisualisasiDataGrafikChartDatawarehouseKelompok7&#47;TopJenisPekerjaan' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Vi&#47;VisualisasiDataGrafikChartDatawarehouseKelompok7&#47;TopJenisPekerjaan&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>
+                        <script type='text/javascript'>
+                            var divElement = document.getElementById('viz1767612876321');
+                            var vizElement = divElement.getElementsByTagName('object')[0];
+                            vizElement.style.width='100%';vizElement.style.height='450px';
+                            var scriptElement = document.createElement('script');
+                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                        </script>
+                    </div>
+                    <div class="sheet-insight">
+                        <div class="insight-tag">
+                            <i class="fas fa-lightbulb"></i>
+                            <strong>Insight Utama:</strong> Sektor kewirausahaan adalah tulang punggung ekonomi Kota Bandung.
+                        </div>
+                        <div class="insight-content">
+                            <p>Wiraswasta menempati posisi puncak sebagai profesi yang paling banyak digeluti masyarakat Bandung, diikuti oleh kategori 'Lainnya' dan 'Pelajar/Mahasiswa'. Ini mencerminkan karakter kota sebagai pusat kreatif dan kewirausahaan.</p>
+                            <ul class="insight-list">
+                                <li><i class="fas fa-crown"></i> #1: Wiraswasta (32% dari total pekerja)</li>
+                                <li><i class="fas fa-medal"></i> #2: Kategori Lainnya (18%)</li>
+                                <li><i class="fas fa-award"></i> #3: Pelajar/Mahasiswa (15%)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 3: Komposisi Pekerjaan -->
+                <div class="analysis-sheet">
+                    <div class="sheet-header">
+                        <div class="sheet-title">
+                            <h3>Komposisi Pekerjaan</h3>
+                            <span class="chart-type">Treemap</span>
+                        </div>
+                        <div class="sheet-meta">
+                            <span><i class="fas fa-th-large"></i> Proporsi Visual</span>
+                            <span><i class="fas fa-expand-arrows-alt"></i> Area = Persentase</span>
+                        </div>
+                    </div>
+                    <div class="chart-container">
+                        <div class='tableauPlaceholder' id='viz1767612924094' style='position: relative'><noscript><a href='#'><img alt='Komposisi Pekerjaan ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Vi&#47;VisualisasiDataGrafikChartDatawarehouseKelompok7&#47;KomposisiPekerjaan&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='VisualisasiDataGrafikChartDatawarehouseKelompok7&#47;KomposisiPekerjaan' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Vi&#47;VisualisasiDataGrafikChartDatawarehouseKelompok7&#47;KomposisiPekerjaan&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>
+                        <script type='text/javascript'>
+                            var divElement = document.getElementById('viz1767612924094');
+                            var vizElement = divElement.getElementsByTagName('object')[0];
+                            vizElement.style.width='100%';vizElement.style.height='450px';
+                            var scriptElement = document.createElement('script');
+                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                        </script>
+                    </div>
+                    <div class="sheet-insight">
+                        <div class="insight-tag">
+                            <i class="fas fa-lightbulb"></i>
+                            <strong>Insight Utama:</strong> Dominasi sektor Wiraswasta dan Pelajar/Mahasiswa di Bandung.
+                        </div>
+                        <div class="insight-content">
+                            <p>Visualisasi ini menggambarkan proporsi setiap kategori pekerjaan terhadap total populasi. Luas kotak menunjukkan dominasi sektor Wiraswasta dan Pelajar di Bandung, yang mencerminkan kota pendidikan dan kewirausahaan.</p>
+                            <ul class="insight-list">
+                                <li><i class="fas fa-square" style="color: #1f77b4;"></i> Wiraswasta: Area terluas (32%)</li>
+                                <li><i class="fas fa-square" style="color: #ff7f0e;"></i> Pelajar/Mahasiswa: 15% populasi</li>
+                                <li><i class="fas fa-square" style="color: #2ca02c;"></i> PNS/TNI/Polri: 8% populasi</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 4: Pertumbuhan Tahunan -->
+                <div class="analysis-sheet">
+                    <div class="sheet-header">
+                        <div class="sheet-title">
+                            <h3>Pertumbuhan Tahunan</h3>
+                            <span class="chart-type">Waterfall Chart</span>
+                        </div>
+                        <div class="sheet-meta">
+                            <span><i class="fas fa-chart-bar"></i> Fluktuasi Tahunan</span>
+                            <span><i class="fas fa-percentage"></i> Perubahan %</span>
+                        </div>
+                    </div>
+                    <div class="chart-container">
+                        <div class='tableauPlaceholder' id='viz1767612962866' style='position: relative'><noscript><a href='#'><img alt='Pertumbuhan Tahunan ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Vi&#47;VisualisasiDataGrafikChartDatawarehouseKelompok7&#47;PertumbuhanTahunan&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='VisualisasiDataGrafikChartDatawarehouseKelompok7&#47;PertumbuhanTahunan' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Vi&#47;VisualisasiDataGrafikChartDatawarehouseKelompok7&#47;PertumbuhanTahunan&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>
+                        <script type='text/javascript'>
+                            var divElement = document.getElementById('viz1767612962866');
+                            var vizElement = divElement.getElementsByTagName('object')[0];
+                            vizElement.style.width='100%';vizElement.style.height='450px';
+                            var scriptElement = document.createElement('script');
+                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                        </script>
+                    </div>
+                    <div class="sheet-insight">
+                        <div class="insight-tag alert">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            <strong>Perhatian:</strong> Data menunjukkan anomali atau pergeseran besar pada tahun 2023-2024.
+                        </div>
+                        <div class="insight-content">
+                            <p>Analisis ini menangkap fluktuasi persentase perubahan. Terdapat lonjakan besar (360.8%) dan penurunan tajam (-100%) pada periode tertentu yang menunjukkan pergeseran struktural lapangan kerja yang signifikan.</p>
+                            <ul class="insight-list">
+                                <li><i class="fas fa-arrow-up" style="color: #d62728;"></i> Lonjakan ekstrem: +360.8% (2023-2024)</li>
+                                <li><i class="fas fa-arrow-down" style="color: #2ca02c;"></i> Penurunan tajam: -100% (periode tertentu)</li>
+                                <li><i class="fas fa-random"></i> Volatilitas tinggi pasca pandemi</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 5: Status Kerja -->
+                <div class="analysis-sheet">
+                    <div class="sheet-header">
+                        <div class="sheet-title">
+                            <h3>Status Kerja & Tidak Bekerja</h3>
+                            <span class="chart-type">Donut Chart</span>
+                        </div>
+                        <div class="sheet-meta">
+                            <span><i class="fas fa-user-check"></i> Status Pekerjaan</span>
+                            <span><i class="fas fa-chart-pie"></i> Proporsi</span>
+                        </div>
+                    </div>
+                    <div class="chart-container">
+                        <div class='tableauPlaceholder' id='viz1767613018885' style='position: relative'><noscript><a href='#'><img alt='Status Kerja Dan Tidak Bekerja ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Vi&#47;VisualisasiDataGrafikChartDatawarehouseKelompok7&#47;StatusKerjaDanTidakBekerja&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='VisualisasiDataGrafikChartDatawarehouseKelompok7&#47;StatusKerjaDanTidakBekerja' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Vi&#47;VisualisasiDataGrafikChartDatawarehouseKelompok7&#47;StatusKerjaDanTidakBekerja&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>
+                        <script type='text/javascript'>
+                            var divElement = document.getElementById('viz1767613018885');
+                            var vizElement = divElement.getElementsByTagName('object')[0];
+                            vizElement.style.width='100%';vizElement.style.height='450px';
+                            var scriptElement = document.createElement('script');
+                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                        </script>
+                    </div>
+                    <div class="sheet-insight">
+                        <div class="insight-tag success">
+                            <i class="fas fa-check-circle"></i>
+                            <strong>Positif:</strong> Tingkat pekerjaan yang relatif tinggi di Kota Bandung.
+                        </div>
+                        <div class="insight-content">
+                            <p>Secara rata-rata, 78.15% penduduk Bandung berstatus bekerja, sementara 21.85% sisanya tidak atau belum bekerja. Angka ini menunjukkan kondisi ketenagakerjaan yang sehat di Bandung.</p>
+                            <ul class="insight-list">
+                                <li><i class="fas fa-briefcase" style="color: #1f77b4;"></i> Bekerja: 78.15% (Positif)</li>
+                                <li><i class="fas fa-user-graduate" style="color: #ff7f0e;"></i> Tidak Bekerja: 21.85% (Termasuk pelajar)</li>
+                                <li><i class="fas fa-city"></i> Bandung lebih tinggi dari rata-rata nasional</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>WORKTREND <span class="highlight">BANDUNG</span></h2>
+                    <p>Analisis perubahan pola pekerjaan di Kota Bandung</p>
+                </div>
+                <div class="footer-info">
+                    <p>&copy; 2026 WORKTREND BANDUNG - Data Warehouse Project Kelompok 7</p>
+                    <p class="footer-note">Data berdasarkan Survei Tenaga Kerja Kota Bandung 2017-2025</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+        
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+        
+        // Close menu when clicking on a link
+        document.querySelectorAll('.nav-menu a').forEach(n => n.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navMenu.classList.remove('active');
+        }));
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if(targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if(targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Sticky navbar
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 100) {
+                navbar.classList.add('sticky');
+            } else {
+                navbar.classList.remove('sticky');
+            }
+        });
+    </script>
+</body>
+</html>
